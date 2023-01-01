@@ -42,3 +42,10 @@
     background-color: #470205;
 
 }
+
+small {
+  position: absolute;
+  bottom: 0;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
