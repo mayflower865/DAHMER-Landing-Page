@@ -31,6 +31,9 @@
 .card-text {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn-primary {
