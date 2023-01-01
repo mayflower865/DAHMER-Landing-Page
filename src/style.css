@@ -30,6 +30,7 @@
 
 .card-text {
     color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn-primary {
@@ -43,9 +44,22 @@
 
 }
 
+.credit {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #470205;
+}
+
+a:hover {
+    color: white;
+}
+
 small {
   position: absolute;
   bottom: 0;
   padding-left: 150px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
