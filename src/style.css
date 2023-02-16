@@ -6,7 +6,7 @@
    align-items: center;
    width: 100vw;
    height: 100vh;
-   position: absolute;
+   position: fixed;
 }
 
 .card {
@@ -17,6 +17,8 @@
    cursor: pointer;
    border-radius: 20px;
    border: none;
+   width: 45rem; 
+   height: 25rem;
 }
 
 .card:hover {
@@ -47,22 +49,21 @@
 
 }
 
-.credit {
-    color: black;
-}
 
-a {
-    text-decoration: none;
-    color: #470205;
-}
 
-a:hover {
-    color: white;
-}
-
-small {
-  position: absolute;
-  bottom: 0;
-  padding-left: 150px;
-  padding-bottom: 35px;
+@media (max-width: 1000px) {
+    .background-img {
+    background-image: url(../img/mobileimg.jpg);
+    }
+    .card {
+        width: 23rem;
+        height: 25rem;
+    }
+    .card:hover {
+        display: none;
+    }
+    .card-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    }
 }
